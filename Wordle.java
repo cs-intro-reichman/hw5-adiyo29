@@ -138,7 +138,6 @@ public class Wordle {
                 System.out.println("Congratulations! You guessed the word in " + (attempt + 1) + " attempts.");
                 won = true;
             }
-
             attempt++;
         }
 
