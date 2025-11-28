@@ -142,9 +142,7 @@ public class Wordle {
         }
 
         if (!won) {
-           printBoard(guesses, results, attempt - 1);
-        if (attempt >= 6)
-            System.err.println("Sorry you did not guess the word." + "\n" + "The secret word was: " + secret);
+            System.out.println("Sorry you did not guess the word." + "\n" + "The secret word was: " + secret);
 
         inp.close();
     }
